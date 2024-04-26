@@ -1,0 +1,102 @@
+
+ 
+ header {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  body{
+    background-image: url("/Image/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Style for the logo */
+  #logo {
+    float: left;
+    width: 100px;
+      height: 100px;
+      border-radius: 20px;
+  }
+
+  /* Style for the heading */
+  #heading {
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 110px; 
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  #message {
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, sans-serif; /* Change font family for the message */
+  }
+
+  #subheading {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px; /* Set font size for the subheading */
+  }
+
+  /* Style for the member grid */
+  .member-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    gap: 10px;
+    margin-top: 45px;
+  }
+
+  /* Style for each member */
+  .member {
+    text-align: center;
+  }
+
+  /* Style for member photo */
+  .member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+   
+   /* Style for the columns container */
+   .columns-container {
+    display: flex;
+    justify-content: space-between; /* Distribute columns evenly */
+    margin-top: 150px;
+  }
+
+  /* Style for the columns */
+  .column {
+    width: 30%; /* Set the width of each column */
+    text-align: center;
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+    border-radius: 20px; /* Add border radius */
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
